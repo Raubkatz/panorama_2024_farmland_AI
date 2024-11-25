@@ -36,6 +36,8 @@ Das Model wurden anhand der extrahierten `var2der`-Merkmale trainiert und hinsic
 
 ## Anleitung zur Nutzung
 
+Run var2der_austria.py
+
 ### Voraussetzungen
 
 - Python 3.7 oder höher
@@ -84,6 +86,8 @@ Two classification models were employed in this analysis:
 The model was trained on the extracted `var2der` features and evaluated for its performance.
 
 ## Usage Instructions
+
+Run var2der_austria.py
 
 ### Prerequisites
 
