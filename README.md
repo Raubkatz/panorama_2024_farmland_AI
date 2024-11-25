@@ -1,12 +1,16 @@
 # CropHarvest Datenverarbeitung und Klassifikation – Panorama 2024
 
+
+![Projektübersicht](img.png)
+
+
 English version below
 
 Dieses Repository enthält ein Analyseprojekt, das während der **Panorama 2024** Veranstaltung demonstriert wurde. Ziel des Projekts ist die Klassifikation von Ackerflächen mithilfe des CropHarvest-Datensatzes. Dabei wird die Varianz der zweiten Ableitung (`var2der`) als Komplexitätsmetrik für ausgewählte spektrale Bänder berechnet. Diese Merkmale werden anschließend zur Schulung von **CatBoost** und Klassifikatoren verwendet.
 
 ## Einführung
 
-Dieses Projekt zielt darauf ab, Ackerflächen mithilfe von Satellitenbildern aus dem **CropHarvest**-Datensatz zu klassifizieren. Die Analyse umfasst die Auswahl spezifischer spektraler Bänder und die Berechnung der Varianz der zweiten Ableitung (`var2der`) als Maß für die Komplexität der zeitlichen Daten. Die extrahierten Merkmale dienen als Grundlage für die Schulung von Klassifikationsmodellen, die darauf abzielen, Landnutzungsmuster präzise zu identifizieren.
+Dieses Projekt zielt darauf ab, Ackerflächen mithilfe von Satellitenbildern aus dem **CropHarvest**-Datensatz zu klassifizieren. Die Analyse umfasst die Auswahl spezifischer spektraler Bänder und die Berechnung der Varianz der zweiten Ableitung (`var2der`) als Maß für die Komplexität der zeitlichen Daten. Die extrahierten Merkmale dienen als Grundlage für das Training von Klassifikationsmodellen, die darauf abzielen, Landnutzungsmuster präzise zu identifizieren. Zusätzlich wird analysiert welche Parameter wichtig für die Identifikation von Landnutzungsmuster sind.
 
 ## Datensatz
 
